@@ -1,11 +1,11 @@
 @charset "UTF-08"
-*{
+ *{
     padding: 0px;
     margin: 0px;
     ;}
     html,body{
         min-height: 100%;
-        background-color: gray;
+        background-color: white;
     }
     header{
         background-color: black;
@@ -26,8 +26,32 @@
     a:hover{
         text-decoration: underline;
     }
+
+    section{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+    }
+
+    section.normal{
+        background-color: white;
+        color: black;
+    }
+
+   section.imagem > p {
+
+    background-color:rgba(0, 0, 0, 0.534);
+    width: 400px;
+   }
+
+    section.imagem{
+        background-color: rgb(121, 101, 101);
+        color: white;
+    }
     footer{
         background-color: black;
         text-align: center;
-        color: aqua;
+        color: white;
+        padding: 0.5px;
     }
